@@ -133,13 +133,13 @@ This repository contains a collection of configuration files for the ZimaOS oper
    ```bash
    sudo curl -o /DATA/.bashrc https://raw.githubusercontent.com/axelquack/dotfiles-zimaos/main/.bashrc
    sudo curl -o /DATA/.bash_profile https://raw.githubusercontent.com/axelquack/dotfiles-zimaos/main/.bash_profile
-   sudo curl -o ~/.wgetrc https://raw.githubusercontent.com/axelquack/dotfiles-zimaos/main/wgetrc
+   sudo curl -o ~/.wgetrc https://raw.githubusercontent.com/axelquack/dotfiles-zimaos/refs/heads/main/.wgetrc
    ```
    Or with `wget`:
    ```bash
    sudo wget -O /DATA/.bashrc https://raw.githubusercontent.com/axelquack/dotfiles-zimaos/main/.bashrc
    sudo wget -O /DATA/.bash_profile https://raw.githubusercontent.com/axelquack/dotfiles-zimaos/main/.bash_profile
-   sudo wget -O ~/.wgetrc https://raw.githubusercontent.com/axelquack/dotfiles-zimaos/main/wgetrc
+   sudo wget -O ~/.wgetrc https://raw.githubusercontent.com/axelquack/dotfiles-zimaos/refs/heads/main/.wgetrc
    ```
  * Notes:
    * `.bashrc` and `.bash_profile` go in `/DATA/` (ZimaOS-specific).
