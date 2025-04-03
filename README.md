@@ -132,9 +132,6 @@ This repository contains a customized `.bashrc` file designed for the ZimaOS ope
 Feel free to fork this repository, adapt it, and submit pull requests! Suggestions for new aliases, better ASCII art, or ZimaOS-specific tweaks are welcome.
 
 ## License
-This work is licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA 4.0)](https://creativecommons.org/licenses/by-sa/4.0/).
-
-## License
 This work is licensed under a [Creative Commons Zero 1.0 Universal (CC0 1.0) Public Domain Dedication](https://creativecommons.org/publicdomain/zero/1.0/).
 
 * **You are free to**: Use, copy, modify, and distribute this work for any purpose, including commercial use, without any conditions or attribution required.
