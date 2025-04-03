@@ -128,7 +128,7 @@ This repository contains a collection of configuration files for the ZimaOS oper
 
 ### Steps
 
-1. **Download Both Files**:
+1. **Download All Files**:
  * Since ZimaOS lacks `git`, use `curl` or `wget` to fetch from the repository:
    ```bash
    sudo curl -o /DATA/.bashrc https://raw.githubusercontent.com/axelquack/dotfiles-zimaos/main/.bashrc
