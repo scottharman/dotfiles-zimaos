@@ -88,8 +88,6 @@ alias listen="sudo lsof -i -P 2>/dev/null | grep -i 'listen' || netstat -tuln 2>
 # Directory navigation
 alias ..='cd ..'          # Moves up one directory level.
 alias ...='cd ../..'      # Moves up two directory levels.
-alias downloads='cd ~/Downloads'         # Goes to ~/Downloads.
-alias desktop='cd ~/Desktop'             # Goes to ~/Desktop.
 # alias sites='cd /<your-directory-path/>'                              # Adjust this to your needs
 
 # File management
