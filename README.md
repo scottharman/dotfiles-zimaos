@@ -96,17 +96,36 @@ This repository contains a customized `.bashrc` file designed for the ZimaOS ope
 
 ## Installation
 
-1. **Copy the File**:
- * Place `.bashrc` in `~/.bashrc` (standard Linux path).
- * Command:
+### Files
+- **`.bashrc`**: The main configuration file with prompt, aliases, and welcome message.
+- **`.bash_profile`**: A login shell script that sources `.bashrc` automatically on SSH login, ensuring the configuration loads without manual intervention.
+
+### Steps
+1. **Download Both Files**:
+ * Since ZimaOS lacks `git`, use `curl` or `wget` to fetch from the repository:
    ```bash
-   sudo cp .bashrc ~/.bashrc
+   sudo curl -o /DATA/.bashrc https://raw.githubusercontent.com/axelquack/dotfiles-zimaos/main/.bashrc
+   sudo curl -o /DATA/.bash_profile https://raw.githubusercontent.com/axelquack/dotfiles-zimaos/main/.bash_profile
    ```
-2. **Source It**:
- * Apply the configuration:
+   Or with `wget`:
    ```bash
-   source ~/.bashrc
+   sudo wget -O /DATA/.bashrc https://raw.githubusercontent.com/axelquack/dotfiles-zimaos/main/.bashrc
+   sudo wget -O /DATA/.bash_profile https://raw.githubusercontent.com/axelquack/dotfiles-zimaos/main/.bash_profile
    ```
+ * These commands place the files in `/DATA/`, the ZimaOS-specific location.
+
+2. **Set Permissions**:
+ * Ensure both files are readable:
+   ```bash
+   sudo chmod 644 /DATA/.bashrc /DATA/.bash_profile
+   ```
+
+3. **Source It**:
+ - Apply the configuration manually for the current session:
+   ```bash
+   source /DATA/.bashrc
+   ```
+ - On subsequent SSH logins, `.bash_profile` will autoload `.bashrc`.
 
 ## Usage
 
