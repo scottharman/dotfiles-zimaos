@@ -15,7 +15,7 @@ ZimaOS, an immutable, minimal Linux-based system, provides two text editors: `vi
   * Command-line options (`-c "set nu"`, `-c "imap jj <Esc>"`) failed with "bad option" and "not implemented" errors, respectively.
 * **Limitations**:
   * No color-coding, line numbers, or key mappings possible.
-  * Likely a stripped-down editor embedded in ZimaOS’s `rootfs`, lacking Vim’s extensibility.
+  * Likely a stripped-down editor embedded in ZimaOS’s `buildroot`, lacking Vim’s extensibility.
 * **Outcome**: Customization isn’t feasible; `vi` remains a basic, unconfigurable editor.
 
 ## Key Findings: `nano`
